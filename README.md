@@ -1,6 +1,8 @@
 # LeetCode Solutions Repository
 Welcome to my LeetCode Solutions Repository! 🚀
 
+## My profile: https://leetcode.com/Ungureanu_Ovidiu/
+
 ## Overview
 This repository is a collection of my solutions to various LeetCode problems, aiming for efficiency and clarity. I've implemented solutions in several programming languages to showcase different approaches and coding styles. The primary languages covered are C, C++, Java, Python 3, Go, and Rust.
 
