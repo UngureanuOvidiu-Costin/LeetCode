@@ -60,6 +60,8 @@ function distributeCandies(candyType: array of integers): integer
 ```
 
 ## Complexity Analysis:
+![image](https://github.com/UngureanuOvidiu-Costin/LeetCode/assets/102877918/c988993d-e821-4e9c-9f56-1b65b6a067df)
+
 
 ### Time complexity Analysis:
 The time complexity of the algorithm is primarily determined by the for loop that iterates through the candyType array. Let's denote the length of the candyType array as n.
