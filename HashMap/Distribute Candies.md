@@ -14,7 +14,7 @@ Given the integer array candyType of length n, return the maximum number of diff
 
 ### Pseudocode:
 
-```plaintext
+```Python
 function distributeCandies(candyType: array of integers): integer
     candyOccurrence := empty HashMap<Integer, Integer>
     limit := length of candyType / 2
@@ -34,7 +34,8 @@ function distributeCandies(candyType: array of integers): integer
 
 ## Code Implementation:
 
-```class Solution {
+```Java
+class Solution {
     public int distributeCandies(int[] candyType) {
         HashMap<Integer, Integer> candyOccurence = new HashMap<>();
 
@@ -64,8 +65,8 @@ function distributeCandies(candyType: array of integers): integer
 
 
 ### Time complexity Analysis:
-The time complexity of the algorithm is primarily determined by the for loop that iterates through the candyType array. Let's denote the length of the candyType array as n.
-1.For Loop: The for loop runs for each element in the candyType array, and each iteration involves constant-time operations (such as HashMap operations). Therefore, the time complexity of the for loop is O(n).
+The time complexity of the algorithm is primarily determined by the for loop that iterates through the candyType array. Let's denote the length of the candyType array as n.<br>
+1.For Loop: The for loop runs for each element in the candyType array, and each iteration involves constant-time operations (such as HashMap operations). Therefore, the time complexity of the for loop is O(n). <br>
 2.HashMap Operations: The operations on the HashMap (put and containsKey) are generally considered to have an average time complexity of O(1). However, in the worst case, it could be O(n) if there are many hash collisions. In practice, with a good hash function, HashMap operations are efficient.
 
 Therefore, the overall time complexity of the algorithm is O(n).
@@ -73,5 +74,5 @@ Therefore, the overall time complexity of the algorithm is O(n).
 ### Space Complexity Analysis:
 The space complexity is determined by the additional space used by the algorithm, mainly the HashMap.
 
-1.HashMap: In the worst case, where all elements are unique, the HashMap can have a size of up to n/2 (since it's checking for uniqueness for each candy). Therefore, the space complexity for the HashMap is O(n/2), which is equivalent to O(n).
+1.HashMap: In the worst case, where all elements are unique, the HashMap can have a size of up to n/2 (since it's checking for uniqueness for each candy). Therefore, the space complexity for the HashMap is O(n/2), which is equivalent to O(n). <br>
 2.Other Variables: There are a few other constant space variables (like limit, i), which do not depend on the input size. Thus, they contribute O(1) to the space complexity.
