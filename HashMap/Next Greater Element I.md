@@ -15,7 +15,7 @@ Return an array ans of length nums1.length such that ans[i] is the next greater 
 
 ### Pseudocode:
 
-```plaintext
+```Python3
 function nextGreaterElement(nums1, nums2):
     // Step 1
     stack = empty stack
@@ -42,7 +42,8 @@ function nextGreaterElement(nums1, nums2):
 
 ## Code Implementation:
 
-```class Solution {
+```Java
+class Solution {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> nextGreater = new HashMap<>();
         Deque<Integer> stack = new ArrayDeque<>();
