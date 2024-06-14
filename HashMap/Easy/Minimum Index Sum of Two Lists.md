@@ -58,7 +58,7 @@ function findRestaurant(list1, list2):
 ```
 
 ## Code Implementation:
-```
+```Java
 class Solution {
     public String[] findRestaurant(String[] list1, String[] list2) {
         HashMap<String, Integer> stringIndexes1 = new HashMap<>();
