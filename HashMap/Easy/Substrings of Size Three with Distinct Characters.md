@@ -20,5 +20,4 @@ class Solution {
         return uniqueSubstrings.size();
     }
 }
-
 ```
